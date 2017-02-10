@@ -9,7 +9,9 @@
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+- (IBAction)search:(id)sender;
 
+@property (weak) IBOutlet NSSearchField *searchField;
 
 @end
 
